@@ -9,7 +9,14 @@ urlpatterns = [
     path('registration/', views.reg, name='registration'),
     path('signup/',views.signup, name='signup'),
     path('signin/',views.signin, name='signin'),
+
     path('edit_corner/',views.edit_corner, name='edit_corner'),
+    path('update_news/<int:id>/',views.news_update, name='news_update'),
+    path('UpdateNewsHead/<int:id>/',views.news_head_update, name='news_head_update'),
+    path('UpdateNewsContent/<int:id>/',views.news_content_update, name='news_content_update'),
+
+
+
     path('n_post/',views.post_news, name='n_post'),
     path('adv_page/',views.adv_page, name='adv_page'),
     path('ad_post/',views.ad_post,name='ad_post'),

@@ -197,7 +197,6 @@ def adv_page(request):
             }
             return render(request, 'advetisement.html', u_type)
 
-
 def ad_post(request):
     user = User.objects.get(pk=request.session['id'])
 
@@ -322,7 +321,6 @@ def pending_members(request):
         }
 
         return render(request, 'pending editors.html', p_members)
-
 
 def editabout(request):
     user = User.objects.get(pk=request.session['id'])
@@ -456,6 +454,52 @@ def n_reject(request,id):
         n_d = news_field.objects.get(pk=id)
         n_d.delete()
         return redirect('/writer/my_record/')
+
+def news_update(request,id):
+    user = User.objects.get(pk=request.session['id'])
+    user_type = registration.objects.get(id=user)
+    if user is None:
+        messages.success(request, 'Login Timeout, Please Login...')
+        return render(request, 'login.html')
+    else:
+        n_d = news_field.objects.get(pk=id)
+
+        id_news = {
+            'usertype': user_type,
+            'news': n_d,
+        }
+
+        return render(request, 'update_news.html', id_news)
+
+def news_head_update(request,id):
+    user = User.objects.get(pk=request.session['id'])
+    if user is None:
+        messages.success(request, 'Login Timeout, Please Login...')
+        return render(request, 'login.html')
+    else:
+        n_d = news_field.objects.get(pk=id)
+        n_d_id = str(n_d.pk)
+
+        headding = request.POST['n_head']
+
+        news_field.objects.update(news_title=headding)
+
+        return redirect('/writer/update_news/'+ n_d_id + '/')
+
+def news_content_update(request,id):
+    user = User.objects.get(pk=request.session['id'])
+    if user is None:
+        messages.success(request, 'Login Timeout, Please Login...')
+        return render(request, 'login.html')
+    else:
+        n_d = news_field.objects.get(pk=id)
+        n_d_id = str(n_d.pk)
+
+        content = request.POST['n_content']
+
+        news_field.objects.update(news_content=content)
+
+        return redirect('/writer/update_news/'+ n_d_id +'/')
 
 def logout_view(request):
     logout(request)
