@@ -32,8 +32,8 @@
       <file leaf-file-name="settings.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/tsynews/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="367">
-              <caret line="91" column="15" lean-forward="false" selection-start-line="91" selection-start-column="0" selection-end-line="91" selection-end-column="15" />
+            <state relative-caret-position="267">
+              <caret line="27" column="19" lean-forward="false" selection-start-line="27" selection-start-column="19" selection-end-line="27" selection-end-column="19" />
               <folding />
             </state>
           </provider>
@@ -1298,8 +1298,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/tsynews/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="367">
-          <caret line="91" column="15" lean-forward="false" selection-start-line="91" selection-start-column="0" selection-end-line="91" selection-end-column="15" />
+        <state relative-caret-position="267">
+          <caret line="27" column="19" lean-forward="false" selection-start-line="27" selection-start-column="19" selection-end-line="27" selection-end-column="19" />
           <folding />
         </state>
       </provider>
