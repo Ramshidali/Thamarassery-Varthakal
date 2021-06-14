@@ -482,7 +482,7 @@ def news_head_update(request,id):
 
         headding = request.POST['n_head']
 
-        news_field.objects.update(news_title=headding)
+        news_field.objects.filter(pk=n_d_id).update(news_title=headding)
 
         return redirect('/writer/update_news/'+ n_d_id + '/')
 
@@ -497,7 +497,7 @@ def news_content_update(request,id):
 
         content = request.POST['n_content']
 
-        news_field.objects.update(news_content=content)
+        news_field.objects.filter(pk=n_d_id).update(news_content=content)
 
         return redirect('/writer/update_news/'+ n_d_id +'/')
 
