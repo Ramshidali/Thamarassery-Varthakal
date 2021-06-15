@@ -2,7 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="49ea9d50-18ce-4ba7-aa42-1479080387f2" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tsynews/settings.py" afterPath="$PROJECT_DIR$/tsynews/settings.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/viewers/templates/about.html" afterPath="$PROJECT_DIR$/viewers/templates/about.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/viewers/templates/index.html" afterPath="$PROJECT_DIR$/viewers/templates/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/viewers/templates/local_news.html" afterPath="$PROJECT_DIR$/viewers/templates/local_news.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/viewers/templates/news_types.html" afterPath="$PROJECT_DIR$/viewers/templates/news_types.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/viewers/templates/news_view.html" afterPath="$PROJECT_DIR$/viewers/templates/news_view.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -29,73 +34,63 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="settings.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="settings.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tsynews/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="341">
-              <caret line="85" column="17" lean-forward="false" selection-start-line="85" selection-start-column="17" selection-end-line="85" selection-end-column="17" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="update_news.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/editors/templates/update_news.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="57" column="40" lean-forward="false" selection-start-line="57" selection-start-column="40" selection-end-line="57" selection-end-column="40" />
+            <state relative-caret-position="1156">
+              <caret line="78" column="0" lean-forward="true" selection-start-line="78" selection-start-column="0" selection-end-line="78" selection-end-column="0" />
               <folding>
-                <element signature="n#style#0;n#h4#0;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#input#0;n#form#0;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#input#1;n#form#0;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#textarea#0;n#form#1;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#input#0;n#form#1;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#input#0;n#a#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="e#3805#3811#0#HTML" expanded="true" />
-                <element signature="e#3811#3817#0#HTML" expanded="true" />
+                <element signature="e#0#306#1" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="admin_page.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/editors/templates/admin_page.html">
+      <file leaf-file-name="local_news.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/viewers/templates/local_news.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-907">
-              <caret line="41" column="20" lean-forward="false" selection-start-line="41" selection-start-column="20" selection-end-line="41" selection-end-column="36" />
+            <state relative-caret-position="256">
+              <caret line="22" column="137" lean-forward="false" selection-start-line="22" selection-start-column="137" selection-end-line="22" selection-end-column="137" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/editors/urls.py">
+      <file leaf-file-name="news_types.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/viewers/templates/news_types.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="229">
-              <caret line="20" column="54" lean-forward="true" selection-start-line="20" selection-start-column="54" selection-end-line="20" selection-end-column="54" />
+            <state relative-caret-position="295">
+              <caret line="22" column="137" lean-forward="false" selection-start-line="22" selection-start-column="137" selection-end-line="22" selection-end-column="137" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="my_records.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/editors/templates/my_records.html">
+      <file leaf-file-name="news_view.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/viewers/templates/news_view.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="173">
-              <caret line="49" column="119" lean-forward="true" selection-start-line="49" selection-start-column="119" selection-end-line="49" selection-end-column="119" />
-              <folding>
-                <element signature="n#style#0;n#input#0;n#a#0;n#td#4;n#tr#0;n#table#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
+            <state relative-caret-position="385">
+              <caret line="23" column="137" lean-forward="false" selection-start-line="23" selection-start-column="137" selection-end-line="23" selection-end-column="137" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/viewers/views.py">
+      <file leaf-file-name="about.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/viewers/templates/about.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="526">
-              <caret line="475" column="25" lean-forward="true" selection-start-line="475" selection-start-column="25" selection-end-line="475" selection-end-column="25" />
+            <state relative-caret-position="340">
+              <caret line="20" column="137" lean-forward="false" selection-start-line="20" selection-start-column="137" selection-end-line="20" selection-end-column="137" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/viewers/templates/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="24" column="129" lean-forward="true" selection-start-line="24" selection-start-column="129" selection-end-line="24" selection-end-column="129" />
               <folding />
             </state>
           </provider>
@@ -104,7 +99,7 @@
       <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/editors/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="498">
+            <state relative-caret-position="317">
               <caret line="506" column="0" lean-forward="true" selection-start-line="506" selection-start-column="0" selection-end-line="506" selection-end-column="0" />
               <folding>
                 <element signature="e#538#580#0" expanded="false" />
@@ -196,21 +191,21 @@
         <option value="$PROJECT_DIR$/editors/static/js/slider.js" />
         <option value="$PROJECT_DIR$/editors/static/css/slider.css" />
         <option value="$PROJECT_DIR$/editors/models.py" />
-        <option value="$PROJECT_DIR$/viewers/templates/news_types.html" />
-        <option value="$PROJECT_DIR$/viewers/templates/news_view.html" />
-        <option value="$PROJECT_DIR$/viewers/templates/about.html" />
         <option value="$PROJECT_DIR$/requirements.txt" />
         <option value="$PROJECT_DIR$/viewers/views.py" />
         <option value="$PROJECT_DIR$/editors/static/css/mobile_view.css" />
-        <option value="$PROJECT_DIR$/viewers/templates/index.html" />
         <option value="$PROJECT_DIR$/editors/static/css/index.css" />
-        <option value="$PROJECT_DIR$/viewers/templates/local_news.html" />
         <option value="$PROJECT_DIR$/editors/templates/edit_news.html" />
         <option value="$PROJECT_DIR$/editors/templates/my_records.html" />
         <option value="$PROJECT_DIR$/editors/urls.py" />
         <option value="$PROJECT_DIR$/editors/templates/update_news.html" />
         <option value="$PROJECT_DIR$/editors/views.py" />
         <option value="$PROJECT_DIR$/tsynews/settings.py" />
+        <option value="$PROJECT_DIR$/viewers/templates/index.html" />
+        <option value="$PROJECT_DIR$/viewers/templates/local_news.html" />
+        <option value="$PROJECT_DIR$/viewers/templates/news_types.html" />
+        <option value="$PROJECT_DIR$/viewers/templates/news_view.html" />
+        <option value="$PROJECT_DIR$/viewers/templates/about.html" />
       </list>
     </option>
   </component>
@@ -303,24 +298,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="editors" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tsy-news" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tsy-news" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="editors" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="templates" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -783,7 +760,7 @@
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23076923" sideWeight="0.49394855" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23076923" sideWeight="0.49394855" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.492635" sideWeight="0.591528" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -899,7 +876,7 @@
           <option name="timeStamp" value="1" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="5" />
+      <option name="time" value="6" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1107,20 +1084,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/viewers/templates/about.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="25" column="13" lean-forward="false" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/viewers/templates/news_types.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="27" column="13" lean-forward="false" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/viewers/models.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1146,13 +1109,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="342">
           <caret line="205" column="17" lean-forward="false" selection-start-line="205" selection-start-column="17" selection-end-line="205" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/viewers/templates/local_news.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-273">
-          <caret line="268" column="0" lean-forward="false" selection-start-line="268" selection-start-column="0" selection-end-line="268" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -1185,16 +1141,8 @@
         <state relative-caret-position="173">
           <caret line="49" column="119" lean-forward="true" selection-start-line="49" selection-start-column="119" selection-end-line="49" selection-end-column="119" />
           <folding>
-            <element signature="n#style#0;n#input#0;n#a#0;n#td#4;n#tr#0;n#table#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#input#0;n#a#0;n#td#4;n#tr#0;n#table#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/viewers/templates/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="232">
-          <caret line="563" column="0" lean-forward="true" selection-start-line="563" selection-start-column="0" selection-end-line="563" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1202,14 +1150,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-667">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/viewers/templates/news_view.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="379">
-          <caret line="199" column="63" lean-forward="true" selection-start-line="199" selection-start-column="63" selection-end-line="199" selection-end-column="63" />
           <folding />
         </state>
       </provider>
@@ -1258,7 +1198,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/editors/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="498">
+        <state relative-caret-position="317">
           <caret line="506" column="0" lean-forward="true" selection-start-line="506" selection-start-column="0" selection-end-line="506" selection-end-column="0" />
           <folding>
             <element signature="e#538#580#0" expanded="false" />
@@ -1296,10 +1236,52 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/viewers/templates/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="24" column="129" lean-forward="true" selection-start-line="24" selection-start-column="129" selection-end-line="24" selection-end-column="129" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/tsynews/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="341">
-          <caret line="85" column="17" lean-forward="false" selection-start-line="85" selection-start-column="17" selection-end-line="85" selection-end-column="17" />
+        <state relative-caret-position="1156">
+          <caret line="78" column="0" lean-forward="true" selection-start-line="78" selection-start-column="0" selection-end-line="78" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#306#1" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/viewers/templates/local_news.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="256">
+          <caret line="22" column="137" lean-forward="false" selection-start-line="22" selection-start-column="137" selection-end-line="22" selection-end-column="137" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/viewers/templates/news_types.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="295">
+          <caret line="22" column="137" lean-forward="false" selection-start-line="22" selection-start-column="137" selection-end-line="22" selection-end-column="137" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/viewers/templates/news_view.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="385">
+          <caret line="23" column="137" lean-forward="false" selection-start-line="23" selection-start-column="137" selection-end-line="23" selection-end-column="137" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/viewers/templates/about.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="137" lean-forward="false" selection-start-line="20" selection-start-column="137" selection-end-line="20" selection-end-column="137" />
           <folding />
         </state>
       </provider>
