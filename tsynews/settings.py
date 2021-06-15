@@ -75,31 +75,18 @@ WSGI_APPLICATION = 'tsynews.wsgi.application'
 
 # Database
 # https://docs.djangoproject.com/en/2.2/ref/settings/#databases
+        
 
-
-DATABASES = {
-    'default': {
-        'ENGINE': 'mysql.connector.django',
-        'NAME': 'thamarasseryvarthakal',
-        'USER': 'admin',
-        'PASSWORD': 'Tsynews4',
-        'HOST': 'db456.ck9quierau3e.us-east-2.rds.amazonaws.com',
-        # 'HOST': 'database-1.ck9quierau3e.us-east-2.rds.amazonaws.com',
-        'PORT': '3306',
-    }
+ DATABASES = {
+     'default': {
+         'ENGINE': 'mysql.connector.django',
+         'NAME': 'thamarasseryvarthakal',
+         'USER': 'root',
+         'PASSWORD': 'root',
+         'HOST': 'localhost',
+         'PORT': '3306',
 }
-
-
-# DATABASES = {
-#     'default': {
-#         'ENGINE': 'mysql.connector.django',
-#         'NAME': 'thamarasseryvarthakal',
-#         'USER': 'root',
-#         'PASSWORD': 'root',
-#         'HOST': 'localhost',
-#         'PORT': '3306',
-#     }
-# }
+}
 
 
 # Password validation
