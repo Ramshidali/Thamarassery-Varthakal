@@ -83,7 +83,8 @@ DATABASES = {
         'NAME': 'thamarasseryvarthakal',
         'USER': 'admin',
         'PASSWORD': 'Tsynews4',
-        'HOST': 'database-1.ck9quierau3e.us-east-2.rds.amazonaws.com',
+        'HOST': 'http://db456.ck9quierau3e.us-east-2.rds.amazonaws.com',
+        # 'HOST': 'database-1.ck9quierau3e.us-east-2.rds.amazonaws.com',
         'PORT': '3306',
     }
 }
